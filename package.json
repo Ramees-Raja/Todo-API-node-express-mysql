@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start-dev" : "nodemon app.js",
+    "start-debug": "nodemon --inspect app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rammees Raja",
